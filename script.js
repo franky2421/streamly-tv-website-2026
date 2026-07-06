@@ -22,6 +22,7 @@ const answers={
   contact:'For fastest help, message StreamlyTV Support on WhatsApp: <a style="color:#9fe7ff" href="'+whatsapp+'" target="_blank">message support</a>.',
   troubleshooting:'Try these steps first: restart the app, restart the device, check internet, refresh the playlist, and make sure your subscription is active. If it still does not work, message WhatsApp support.',
   recommendation:'If you are new, choose <b>3 months</b>. For better value, choose <b>6 months</b>. For the best long-term price, choose <b>12 months</b>.',
+  player:'The <b>StreamlyTV Player</b> section helps customers install on Firestick, Android TV, Google TV, mobile, tablets, Windows and Mac. Tap <b>Request Player Setup</b> if you need the right option for your device.',
   mac:'A MAC address or device ID is a unique code from your IPTV player app. Open your player app and look for Device ID, MAC ID, or Activation ID, then send it to support.'
 };
 
@@ -45,6 +46,7 @@ function detectKey(text){
   if(lower.includes('which')&&lower.includes('plan')||lower.includes('best plan')||lower.includes('recommend'))return 'recommendation';
   if(lower.includes('mac')||lower.includes('device id')||lower.includes('activation id'))return 'mac';
   if(lower.includes('price')||lower.includes('plan')||lower.includes('cost')||lower.includes('month'))return 'pricing';
+  if(lower.includes('player')||lower.includes('apk')||lower.includes('download'))return 'player';
   if(lower.includes('setup')||lower.includes('install')||lower.includes('firestick')||lower.includes('samsung')||lower.includes('lg')||lower.includes('android')||lower.includes('apple'))return 'setup';
   if(lower.includes('renew')||lower.includes('expire'))return 'renew';
   if(lower.includes('pay')||lower.includes('stripe')||lower.includes('receipt'))return 'payment';
