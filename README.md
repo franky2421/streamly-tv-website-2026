@@ -1,3 +1,1 @@
-# StreamlyTV Website V8
-
-Version 8 adds My Account, subscription status, renewal reminders and order history sections.
+StreamlyTV Website V9 - smarter StreamlyTV Support, better help answers, customer account and setup centre.
