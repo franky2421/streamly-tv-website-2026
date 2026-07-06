@@ -1,20 +1,5 @@
-# StreamlyTV Website V11
+# StreamlyTV Website V12
 
-Version 11 adds an Admin Dashboard preview to the StreamlyTV website.
+Complete professional StreamlyTV website package.
 
-Includes:
-- StreamlyTV logo
-- Pricing with Stripe links
-- WhatsApp support
-- StreamlyTV Support chat
-- Customer Portal
-- Setup Guides
-- My Account
-- StreamlyTV Player section
-- Admin Dashboard preview
-- Customer management concept
-- Renewal tracking concept
-- Support request concept
-- Analytics concept
-
-Upload all files to GitHub and deploy with Vercel.
+Includes logo, pricing, Stripe payment links, WhatsApp support, customer portal, setup guides, FAQ, reviews, player section, account area, admin dashboard preview, SEO checklist, custom domain checklist and English / Arabic support preview.
