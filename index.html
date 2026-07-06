@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StreamlyTV | Premium Streaming Website</title>
-  <meta name="description" content="StreamlyTV premium streaming packages with customer portal, renewals, setup guides and StreamlyTV Support." />
+  <title>StreamlyTV | Customer Account Website V8</title>
+  <meta name="description" content="StreamlyTV premium streaming website with customer account, subscription status, renewals, setup guides and StreamlyTV Support." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -18,6 +18,7 @@
       <a href="#pricing">Pricing</a>
       <a href="#showcase">Showcase</a>
       <a href="#reviews">Reviews</a>
+      <a href="#account">My Account</a>
       <a href="#portal">Customer Portal</a>
       <a href="#setup">Setup Guides</a>
       <a href="#faq">FAQ</a>
@@ -29,12 +30,12 @@
   <main id="home">
     <section class="hero">
       <div class="hero-text">
-        <p class="eyebrow">StreamlyTV Premium Support</p>
+        <p class="eyebrow">StreamlyTV Website V8</p>
         <h1>Entertainment made simple.</h1>
-        <p class="subtitle">Choose your plan, pay securely, send your device details, and StreamlyTV Support will help you get set up fast.</p>
+        <p class="subtitle">Choose your plan, pay securely, then use the Customer Portal to renew, activate, check setup steps and contact StreamlyTV Support.</p>
         <div class="hero-actions">
           <a class="btn primary" href="#pricing">View Plans & Pricing</a>
-          <a class="btn outline" href="#portal">Open Customer Portal</a>
+          <a class="btn outline" href="#account">Open My Account</a>
         </div>
         <div class="trust-row">
           <span>Secure payments</span><span>Fast setup</span><span>WhatsApp support</span>
@@ -108,11 +109,41 @@
       <a class="btn primary" href="#pricing">View Plans</a>
     </section>
 
+    <section id="account" class="section account">
+      <h2>My Account</h2>
+      <p class="section-subtitle">A simple customer area for subscription status, renewals and support.</p>
+      <div class="account-grid">
+        <article class="account-card status-card">
+          <span class="pill active">Active Customer Area</span>
+          <h3>Subscription Status</h3>
+          <p>Customers can quickly check what to do next after payment, renewal or activation.</p>
+          <div class="status-list">
+            <div><strong>Plan</strong><span>3, 6 or 12 months</span></div>
+            <div><strong>Status</strong><span>Message support to confirm</span></div>
+            <div><strong>Renewal</strong><span>Use secure Stripe buttons</span></div>
+          </div>
+        </article>
+        <article class="account-card">
+          <span>🔔</span>
+          <h3>Renewal Reminder</h3>
+          <p>Customers can contact StreamlyTV Support before their plan expires so there is no interruption.</p>
+          <a class="btn outline" href="https://wa.me/61410350514?text=Hi%20StreamlyTV%20Support%2C%20can%20you%20help%20me%20check%20my%20renewal%20date%3F" target="_blank" rel="noopener">Check Renewal Date</a>
+        </article>
+        <article class="account-card">
+          <span>🧾</span>
+          <h3>Order History</h3>
+          <p>Keep your Stripe receipt and send it to support when you need activation or renewal help.</p>
+          <a class="btn outline" href="#pricing">View Payment Options</a>
+        </article>
+      </div>
+    </section>
+
+
     <section id="portal" class="section portal">
       <h2>Customer Portal</h2>
       <p class="section-subtitle">Quick actions for new and existing customers.</p>
       <div class="portal-grid">
-        <a class="portal-card" href="#pricing"><span>🔄</span><h3>Renew Subscription</h3><p>Choose 3, 6 or 12 months and renew securely.</p></a>
+        <a class="portal-card" href="#pricing"><span>🔄</span><h3>Renew Subscription</h3><p>Choose 3, 6 or 12 months and renew securely with Stripe.</p></a>
         <a class="portal-card" href="#activate"><span>📺</span><h3>Activate My Service</h3><p>Send your MAC address, username, app or device details.</p></a>
         <a class="portal-card" href="#setup"><span>📱</span><h3>Setup Guides</h3><p>Find instructions for popular devices.</p></a>
         <a class="portal-card" href="https://wa.me/61410350514" target="_blank" rel="noopener"><span>💬</span><h3>Contact Support</h3><p>Message StreamlyTV Support on WhatsApp.</p></a>
@@ -177,7 +208,7 @@
       <div class="msg bot">Welcome to StreamlyTV Support! 👋<br>I can help with pricing, setup, renewals, payments and troubleshooting.</div>
     </div>
     <div class="quick-buttons">
-      <button data-q="pricing">Pricing</button><button data-q="setup">Setup</button><button data-q="renew">Renew</button><button data-q="activate">Activate</button><button data-q="contact">Contact</button>
+      <button data-q="pricing">Pricing</button><button data-q="account">My Account</button><button data-q="setup">Setup</button><button data-q="renew">Renew</button><button data-q="activate">Activate</button><button data-q="contact">Contact</button>
     </div>
     <form class="chat-input" id="chatForm">
       <input id="chatInput" type="text" placeholder="Type your question..." />

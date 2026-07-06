@@ -1,1 +1,3 @@
-StreamlyTV Website V7 - premium showcase, reviews, support portal, setup guides and Stripe payments.
+# StreamlyTV Website V8
+
+Version 8 adds My Account, subscription status, renewal reminders and order history sections.
