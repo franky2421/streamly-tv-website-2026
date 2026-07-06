@@ -1,3 +1,3 @@
-# StreamlyTV Website 2026
+# StreamlyTV Website V6
 
-Clean StreamlyTV website with logo, pricing, WhatsApp and StreamlyTV Support chatbox.
+Includes logo, pricing, customer portal, activation section, setup centre, FAQ and StreamlyTV Support chat.
