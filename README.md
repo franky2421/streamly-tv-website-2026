@@ -1,3 +1,20 @@
-# StreamlyTV Website V10
+# StreamlyTV Website V11
 
-Version 10 adds the StreamlyTV Player section, device compatibility, download guidance, customer portal, setup guides, smart support and payment links.
+Version 11 adds an Admin Dashboard preview to the StreamlyTV website.
+
+Includes:
+- StreamlyTV logo
+- Pricing with Stripe links
+- WhatsApp support
+- StreamlyTV Support chat
+- Customer Portal
+- Setup Guides
+- My Account
+- StreamlyTV Player section
+- Admin Dashboard preview
+- Customer management concept
+- Renewal tracking concept
+- Support request concept
+- Analytics concept
+
+Upload all files to GitHub and deploy with Vercel.
